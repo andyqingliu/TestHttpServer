@@ -72,6 +72,7 @@ public class MyHttpSrv {
 				System.out.println("studentInfo id:"+studentInfo.getId());
 				System.out.println("studentInfo name:"+studentInfo.getName());
 				System.out.println("studentInfo age:"+studentInfo.getAge());
+				
 				for (int i = 0; i < studentInfo.getPersonCount(); i++) {
 					Person person = studentInfo.getPerson(i);
 					System.out.println("studentInfo person "+i +"value:"+person.getValue());
